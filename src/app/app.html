@@ -1,0 +1,31 @@
+<!-- Global Header -->
+<header class="header">
+  <div class="container">
+    <h1 class="logo">MyWebsite</h1>
+    <nav>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <a routerLink="/about" routerLinkActive="active">About</a>
+      <a routerLink="/contact" routerLinkActive="active">Contact us</a>
+    </nav>
+  </div>
+</header>
+<header class="header">
+  <div class="container">
+    <h1 class="logo">MyWebsite</h1>
+    <nav>
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+      <a routerLink="/about" routerLinkActive="active">About</a>
+      <a routerLink="/contact" routerLinkActive="active">Contact us</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Routed content goes here -->
+<router-outlet></router-outlet>
+
+<!-- Global Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 MyWebsite. All rights reserved.</p>
+  </div>
+</footer>
